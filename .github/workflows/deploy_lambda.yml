@@ -9,7 +9,7 @@ jobs:
   deploy_lambda:
     name: Deploy Lambda to AWS
     runs-on: ubuntu-latest
-    needs: sonarqube
+
 
     steps:
       - name: Checkout code
